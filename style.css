@@ -73,7 +73,7 @@ textarea {
 
 body {
     background: #000000;
-  color:#FFF;
+
   font-family: "DM Sans", arial;
   font-size: 18px;
   line-height: 28px;
@@ -185,6 +185,53 @@ text-align: center;
   font-size: 14px;
   line-height: 20px;
   letter-spacing: 0.2px;
+  margin-bottom: 50px;
 }
-
-
+.card{
+  background: #FFF;   
+  padding: 30px 60px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+}
+.cards{
+  flex-wrap: nowrap;
+  gap: 88px;
+}
+.cards_title{
+  color: #252B42;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 32px; /* 133.333% */
+letter-spacing: 0.1px;
+}
+.cards_des{
+  color: #737373;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 0.2px;
+}
+.card_icns{
+  justify-content: start;
+}
+.card_full_ic i {
+  background-image: url(../img/full_star.svg);
+}
+.card_full_ic i{
+  display: block;
+  width: 22px;
+  height: 22px;
+}
+.empty_star i {
+  background-image: url(../img/.empty_star.svg); 
+}
+.empty_star i {
+  display: block;
+  width: 22px;
+  height: 22px;
+}
