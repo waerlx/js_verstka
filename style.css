@@ -170,12 +170,21 @@ section {
   flex-wrap: wrap;
   justify-content: space-between;
 }
-h1{
+.sec_tit{
     color: var(--light-text-color, #FFF);
 font-family: Montserrat;
 font-size: 40px;
-font-style: normal;
 font-weight: 700;
 line-height: 57px; /* 142.5% */
 letter-spacing: 0.2px;
+text-align: center;
 }
+.sec_txt{
+  color:#FFF;
+  text-align: center;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+}
+
+
